@@ -13,7 +13,7 @@ import uniandes.dpoo.aerolinea.exceptions.InformacionInconsistenteException;
 import uniandes.dpoo.aerolinea.exceptions.VueloSobrevendidoException;
 import uniandes.dpoo.aerolinea.modelo.cliente.Cliente;
 import uniandes.dpoo.aerolinea.persistencia.CentralPersistencia;
-import uniandes.dpoo.aerolinea.persistencia.IPersistenciaAerolinea;
+import uniandes.dpoo.aerolinea.persistencia.PersistenciaAerolineaPlaintext;
 import uniandes.dpoo.aerolinea.persistencia.IPersistenciaTiquetes;
 import uniandes.dpoo.aerolinea.persistencia.TipoInvalidoException;
 import uniandes.dpoo.aerolinea.tiquetes.Tiquete;
@@ -164,6 +164,8 @@ public class Aerolinea
     public Vuelo getVuelo( String codigoRuta, String fechaVuelo )
     {
         // TODO implementar
+    	
+    	
         return null;
     }
 
